@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="log">
+      <UniqueIdentifier>{e4013124-7692-4c9f-bd26-30ab9ec044e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\common\log\log.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\common\log\log.h">
+      <Filter>log</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
