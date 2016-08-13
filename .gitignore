@@ -1,0 +1,63 @@
+# .gitignore file
+#
+# The root folder must contain the following files:
+#
+# .gitignore
+# AUTHORS
+# COPYNG
+# LICENSE
+# README
+# BC.sln
+#
+# Also must contain the following folders:
+#
+# projects/ where should be placed JUST all the .vcxproj and .filters files
+# src/ where should be placed JUST all the source files
+# bin/ where should be placed JUST the resources files (configuration files, etc).
+#
+# The binary files must NOT be uploaded to the repository, neither the .dll, .lib, etc.
+# Notice you could have in your own working folder more files and folders. All these 
+# files/folders must NOT be uploaded to the repository. So if you have files/folders 
+# out of the above list you should add them in this file (.gitignore).
+#
+# The following files/folders will be ignored.
+
+*
+!*/
+
+*~
+
+
+
+# Exceptions, the following files/folders WONT be ignored.
+
+!*.c
+!*.cc
+!*.cpp
+!*.h
+!*.hpp
+
+!*.conf
+!*.xml
+
+!*.sh
+!*.ac
+!*.am
+
+!.gitignore
+
+!projects/BC/BC.vcxproj
+!projects/BC/BC.vcxproj.filters
+
+!projects/Common/Common.vcxproj
+!projects/Common/Common.vcxproj.filters
+
+!BC.sln
+
+!AUTHORS
+!LICENSE
+!COPYING
+!ChangeLog
+!NEWS
+!README
+!TODO
